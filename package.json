@@ -1,0 +1,21 @@
+{
+  "name": "next.js-css-poller",
+  "version": "1.0.0",
+  "description": "React \"hot reloaded\" global styles for Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "zeit",
+    "css",
+    "style"
+  ],
+  "author": "Davide Bertola <dade@dadeb.it>",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
