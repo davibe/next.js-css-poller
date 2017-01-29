@@ -4,7 +4,7 @@
   "description": "React \"hot reloaded\" global styles for Next.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "babel -o index.js src/index.js"
   },
   "keywords": [
     "react",
@@ -16,6 +16,12 @@
   "author": "Davide Bertola <dade@dadeb.it>",
   "license": "ISC",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^2.0.0-beta.18"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.22.2",
+    "next": "^1.2.3"
   }
 }
